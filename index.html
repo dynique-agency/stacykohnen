@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stacy Kohnen – Sängerin für Hochzeiten & Events</title>
+  <meta name="description" content="Eleganter Live-Gesang von Stacy Kohnen: Hochzeiten, Empfänge & Galas in Limburg, NRW, Eifel, Ardennen & Drielandenpunt." />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Icons -->
+  <script defer src="https://unpkg.com/lucide@latest"></script>
+  <!-- FullCalendar -->
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.14/index.global.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.14/index.global.min.js"></script>
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <div class="page-offset"></div>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <img src="logo.svg" alt="Stacy Kohnen Logo" height="34" />
+        <span class="brand-text">Stacy Kohnen</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Leistungen</a>
+        <a href="#gallery">Fotos</a>
+        <a href="#media">Hörprobe</a>
+        <a href="#pricing">Pakete</a>
+        <a href="#testimonials">Feedback</a>
+        <a href="#calendar" class="btn btn-gold">Verfügbarkeit prüfen</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menu"><i data-lucide="menu"></i></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <img src="img/banner.png" alt="Vintage Microphone" />
+    </div>
+    <div class="container hero-content">
+      <p class="eyebrow">Hochzeiten • Empfänge • Galas</p>
+      <h1 class="headline"><span id="typed"></span></h1>
+      <p class="subhead">Zeremonie, Empfang & Dinner – elegant, warm, persönlich. Regionen: Limburg • NRW • Eifel • Ardennen • Drielandenpunt.</p>
+
+      <!-- Spotify Player (alleen 2e track) -->
+      <div class="spotify-hero">
+        <iframe style="border-radius:12px" 
+          src="https://open.spotify.com/embed/track/6K8miFLXiHfIuMYyF3JFxV?utm_source=generator" 
+          width="100%" height="80" frameborder="0" 
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+          loading="lazy"></iframe>
+      </div>
+
+      <!-- Social proof badges -->
+      <div class="hero-meta">
+        <span><i data-lucide="star"></i> ⭐ 4.9/5 aus 120+ Bewertungen</span>
+        <span><i data-lucide="heart"></i> 250+ Zeremonien seit 2016</span>
+        <span><i data-lucide="clock"></i> Antwort meist &lt; 24h</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUE PROPS -->
+  <section id="why" class="section">
+    <div class="container">
+      <h2 class="section-title">Warum Paare Stacy buchen</h2>
+      <div class="cards">
+        <div class="card"><div class="card-icon"><i data-lucide="check-circle"></i></div><h3>Planung ohne Stress</h3><p>Ich übernehme Ablauf & Technik-Abstimmung mit Location – ihr genießt den Moment.</p></div>
+        <div class="card"><div class="card-icon"><i data-lucide="music"></i></div><h3>Repertoire nach Maß</h3><p>Euer Wunschsong ist möglich – inkl. persönlichem 15-Min-Setlist-Consult.</p></div>
+        <div class="card"><div class="card-icon"><i data-lucide="volume-2"></i></div><h3>Premium-Sound</h3><p>Professionelle Technik für Locations aller Größen. Falls Technik vorhanden ist, reduziere ich das Paket.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOTOS / GALLERY -->
+  <section id="gallery" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Impressionen</h2>
+      <div class="masonry">
+        <img src="img/gallery1.jpg" alt="Stacy singing 1">
+        <img src="img/gallery2.jpg" alt="Stacy singing 2">
+        <img src="img/gallery3.jpg" alt="Stacy singing 3">
+        <img src="img/gallery4.jpg" alt="Stacy singing 4">
+        <img src="img/gallery5.jpg" alt="Stacy singing 5">
+        <img src="img/gallery6.jpg" alt="Stacy singing 6">
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MEDIA -->
+  <section id="media" class="section">
+    <div class="container">
+      <h2 class="section-title">Hörprobe</h2>
+      <p class="section-intro">Hören Sie hier in einen meiner Songs auf Spotify:</p>
+      <iframe style="border-radius:12px" 
+        src="https://open.spotify.com/embed/track/6K8miFLXiHfIuMYyF3JFxV?utm_source=generator" 
+        width="100%" height="152" frameborder="0" 
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+        loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Wedding Packages</h2>
+      <div class="pricing">
+        <div class="price-card"><div class="badge">Paket 1</div><h3>Classic Ceremony</h3><ul><li>3 Songs</li><li>Zoom-Beratung</li><li>Technik inkl.</li></ul><button class="btn btn-gold">Jetzt anfragen</button></div>
+        <div class="price-card featured"><div class="badge">Paket 2</div><h3>Ceremony + Empfang</h3><ul><li>4 Songs Zeremonie</li><li>30 Min Empfang</li><li>Technik inkl.</li></ul><button class="btn btn-gold">Jetzt anfragen</button></div>
+        <div class="price-card"><div class="badge">Paket 3</div><h3>Signature Day</h3><ul><li>5/6 Songs</li><li>1 Std Empfang</li><li>Persönliches Vorgespräch</li></ul><button class="btn btn-gold">Jetzt anfragen</button></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEEDBACK -->
+  <section id="testimonials" class="section">
+    <div class="container">
+      <h2 class="section-title">Stimmen von Gästen</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial"><img src="img/couple1.jpg" alt="Anna & Tom"><p>“Perfectes Timing bei unserem Einzug – Tränen pur.”</p><h4>Anna & Tom – Freie Trauung</h4></div>
+        <div class="testimonial"><img src="img/event1.jpg" alt="Lumen Events"><p>“Dezent, aber präsent – genau das Niveau für unsere Gala.”</p><h4>Lumen Events</h4></div>
+        <div class="testimonial"><img src="img/couple2.jpg" alt="Miriam S."><p>“Professionell von Planung bis Auftritt. Absolute Empfehlung.”</p><h4>Miriam S.</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REGIONEN -->
+<section id="regions" class="section section-alt region-section">
+  <div class="container region-split">
+    <div class="region-text">
+      <h2 class="section-title">Regionen & Aktionsgebiet</h2>
+      <p class="section-intro">
+        Ich singe in <strong>Limburg</strong>, <strong>NRW</strong>, <strong>Eifel</strong>, <strong>Ardennen</strong> & rund um das
+        <strong>Drielandenpunt</strong>. <br/>
+        <em>Andere Orte sind nach Absprache jederzeit möglich.</em>
+      </p>
+      <ul class="region-list">
+        <li>Limburg – häufig: Maastricht, Vaals, Valkenburg, Heerlen</li>
+        <li>NRW – häufig: Aachen, Monschau, Heinsberg, Eschweiler</li>
+        <li>Eifel – häufig: Schleiden, Simmerath, Bad Münstereifel</li>
+        <li>Ardennen – häufig: Spa, Stavelot, Malmedy</li>
+      </ul>
+      <a href="#calendar" class="btn btn-gold">Verfügbarkeit prüfen</a>
+    </div>
+
+    <figure class="region-figure">
+      <img
+        src="img/region-map-square.png"
+        alt="Karte: Niederlande, Belgien und westliches Deutschland (NRW, Eifel, Ardennen) als Aktionsgebiet markiert"
+        loading="lazy" width="900" height="450" />
+      <figcaption class="tiny">Aktionsgebiet (Richtlinie) – weitere Regionen gerne auf Anfrage.</figcaption>
+    </figure>
+  </div>
+</section>
+
+
+  <!-- CALENDAR -->
+  <section id="calendar" class="section">
+    <div class="container">
+      <h2 class="section-title">Verfügbarkeit prüfen</h2>
+      <p class="section-intro">Wählt ein Datum im Kalender und schickt eure Anfrage in weniger als einer Minute.</p>
+      <div id="calendarEl"></div>
+    </div>
+  </section>
+
+  <!-- OVERLAY FORM -->
+  <div id="bookingOverlay" class="overlay hidden">
+    <div class="overlay-card">
+      <button id="closeOverlay" class="overlay-close">×</button>
+      <h3>Anfrage</h3>
+      <p class="tiny">Unverbindlich & kostenlos · Antwort meist &lt; 24h</p>
+      <form id="bookingForm">
+        <input type="hidden" id="dateField" name="date" />
+
+        <div class="field">
+          <label>Paket</label>
+          <select name="package">
+            <option>Paket 1 – Classic Ceremony</option>
+            <option>Paket 2 – Ceremony + Empfang</option>
+            <option>Paket 3 – Signature Day</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Name</label>
+          <input type="text" name="name" placeholder="Euer Name" required />
+        </div>
+
+        <div class="field">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="email@beispiel.de" required />
+        </div>
+
+        <div class="field">
+          <label>Ort</label>
+          <input type="text" name="location" placeholder="z. B. Schloss XY, Stadt" />
+        </div>
+
+        <div class="field">
+          <label>Nachricht</label>
+          <textarea name="message" placeholder="Optionale Wünsche, Songs, Ablauf …"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-gold full">Per WhatsApp anfragen</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="year"></span> Stacy Kohnen – Alle Rechte vorbehalten.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
