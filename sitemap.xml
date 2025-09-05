@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Duits (default) -->
+  <url>
+    <loc>https://stacykohnen.de/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://stacykohnen.de/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://stacykohnen.de/nl/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://stacykohnen.de/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://stacykohnen.de/en/"/>
+  </url>
+
+  <!-- Nederlands -->
+  <url>
+    <loc>https://stacykohnen.de/nl/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://stacykohnen.de/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://stacykohnen.de/nl/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://stacykohnen.de/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://stacykohnen.de/en/"/>
+  </url>
+
+  <!-- Frans -->
+  <url>
+    <loc>https://stacykohnen.de/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://stacykohnen.de/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://stacykohnen.de/nl/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://stacykohnen.de/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://stacykohnen.de/en/"/>
+  </url>
+
+  <!-- Engels -->
+  <url>
+    <loc>https://stacykohnen.de/en/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://stacykohnen.de/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://stacykohnen.de/nl/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://stacykohnen.de/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://stacykohnen.de/en/"/>
+  </url>
+
+</urlset>

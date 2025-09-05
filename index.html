@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+  
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Stacy Kohnen – Sängerin für Hochzeiten & Events</title>
@@ -17,31 +18,79 @@
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
   <link rel="stylesheet" href="styles.css" />
+  <link rel="alternate" hreflang="de" href="https://stacykohnen.de/" />
+<link rel="alternate" hreflang="nl" href="https://stacykohnen.de/nl/" />
+<link rel="alternate" hreflang="fr" href="https://stacykohnen.de/fr/" />
+<link rel="alternate" hreflang="en" href="https://stacykohnen.de/en/" />
+
 </head>
 <body>
-  <!-- HEADER -->
-  <div class="page-offset"></div>
-  <header class="nav">
-    <div class="container nav-inner">
-      <a href="#home" class="brand">
-        <img src="logo.svg" alt="Stacy Kohnen Logo" height="34" />
-        <span class="brand-text">Stacy Kohnen</span>
-      </a>
-      <nav class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#services">Leistungen</a>
-        <a href="#gallery">Fotos</a>
-        <a href="#media">Hörprobe</a>
-        <a href="#pricing">Pakete</a>
-        <a href="#testimonials">Feedback</a>
-        <a href="#calendar" class="btn btn-gold">Verfügbarkeit prüfen</a>
-      </nav>
-      <button class="nav-toggle" aria-label="Menu"><i data-lucide="menu"></i></button>
+<!-- HEADER -->
+<div class="page-offset"></div>
+<header class="nav">
+  <div class="container nav-inner">
+    
+    <!-- Brand -->
+    <a href="#home" class="brand">
+      <span class="brand-text">Stacy Kohnen</span>
+    </a>
+    
+    <!-- Desktop nav -->
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#services">Leistungen</a>
+      <a href="#gallery">Fotos</a>
+      <a href="#media">Hörprobe</a>
+      <a href="#pricing">Pakete</a>
+      <a href="#testimonials">Feedback</a>
+      <a href="#calendar" class="btn btn-gold">Verfügbarkeit prüfen</a>
+    </nav>
+
+    <!-- Language Switcher -->
+    <div class="lang-switch" id="langSwitch">
+      <button class="lang-btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false">
+        <i data-lucide="globe"></i>
+        <img class="flag" id="langFlag" src="https://flagcdn.com/w20/de.png" width="20" height="15" alt="Deutsch">
+        <span id="langLabel">DE</span>
+        <i data-lucide="chevron-down" class="chev"></i>
+      </button>
+
+      <ul class="lang-menu" id="langMenu" role="listbox" aria-label="Sprachen">
+        <li role="option">
+          <a href="/" data-lang="de">
+            <img class="flag" src="https://flagcdn.com/w20/de.png" width="20" height="15" alt="">
+            Deutsch
+          </a>
+        </li>
+        <li role="option">
+          <a href="/nl/" data-lang="nl">
+            <img class="flag" src="https://flagcdn.com/w20/nl.png" width="20" height="15" alt="">
+            Nederlands
+          </a>
+        </li>
+        <li role="option">
+          <a href="/fr/" data-lang="fr">
+            <img class="flag" src="https://flagcdn.com/w20/fr.png" width="20" height="15" alt="">
+            Français
+          </a>
+        </li>
+        <li role="option">
+          <a href="/en/" data-lang="en">
+            <img class="flag" src="https://flagcdn.com/w20/gb.png" width="20" height="15" alt="">
+            English
+          </a>
+        </li>
+      </ul>
     </div>
-  </header>
+
+    <!-- Mobile toggle -->
+    <button class="nav-toggle" aria-label="Menu"><i data-lucide="menu"></i></button>
+  </div>
+</header>
+
 
   <!-- HERO -->
-  <section id="home" class="hero">
+  <section id="home" class="hero bg-solid">
     <div class="hero-bg">
       <img src="img/banner.png" alt="Vintage Microphone" />
     </div>
@@ -50,14 +99,7 @@
       <h1 class="headline"><span id="typed"></span></h1>
       <p class="subhead">Zeremonie, Empfang & Dinner – elegant, warm, persönlich. Regionen: Limburg • NRW • Eifel • Ardennen • Drielandenpunt.</p>
 
-      <!-- Spotify Player (alleen 2e track) -->
-      <div class="spotify-hero">
-        <iframe style="border-radius:12px" 
-          src="https://open.spotify.com/embed/track/6K8miFLXiHfIuMYyF3JFxV?utm_source=generator" 
-          width="100%" height="80" frameborder="0" 
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-          loading="lazy"></iframe>
-      </div>
+
 
       <!-- Social proof badges -->
       <div class="hero-meta">
@@ -65,39 +107,74 @@
         <span><i data-lucide="heart"></i> 250+ Zeremonien seit 2016</span>
         <span><i data-lucide="clock"></i> Antwort meist &lt; 24h</span>
       </div>
-    </div>
-  </section>
-
-  <!-- VALUE PROPS -->
-  <section id="why" class="section">
-    <div class="container">
-      <h2 class="section-title">Warum Paare Stacy buchen</h2>
-      <div class="cards">
-        <div class="card"><div class="card-icon"><i data-lucide="check-circle"></i></div><h3>Planung ohne Stress</h3><p>Ich übernehme Ablauf & Technik-Abstimmung mit Location – ihr genießt den Moment.</p></div>
-        <div class="card"><div class="card-icon"><i data-lucide="music"></i></div><h3>Repertoire nach Maß</h3><p>Euer Wunschsong ist möglich – inkl. persönlichem 15-Min-Setlist-Consult.</p></div>
-        <div class="card"><div class="card-icon"><i data-lucide="volume-2"></i></div><h3>Premium-Sound</h3><p>Professionelle Technik für Locations aller Größen. Falls Technik vorhanden ist, reduziere ich das Paket.</p></div>
+            <!-- Spotify Player (alleen 2e track) -->
+      <div class="spotify-hero">
+        <iframe style="border-radius:12px" 
+          src="https://open.spotify.com/embed/track/6K8miFLXiHfIuMYyF3JFxV?utm_source=generator" 
+          width="100%" height="80" frameborder="0" 
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+          loading="lazy"></iframe>
       </div>
     </div>
   </section>
 
-  <!-- FOTOS / GALLERY -->
-  <section id="gallery" class="section section-alt">
+  <!-- WARUM PAARE STACY BUCHEN -->
+  <section id="warum" class="section bg-paper">
     <div class="container">
-      <h2 class="section-title">Impressionen</h2>
-      <div class="masonry">
-        <img src="img/gallery1.jpg" alt="Stacy singing 1">
-        <img src="img/gallery2.jpg" alt="Stacy singing 2">
-        <img src="img/gallery3.jpg" alt="Stacy singing 3">
-        <img src="img/gallery4.jpg" alt="Stacy singing 4">
-        <img src="img/gallery5.jpg" alt="Stacy singing 5">
-        <img src="img/gallery6.jpg" alt="Stacy singing 6">
+      <h2 class="section-title">Warum Paare Stacy buchen</h2>
+      <p class="section-intro">
+        Eure Hochzeit verdient Musik, die Herzen berührt und Momente unvergesslich macht.
+        Mit Erfahrung, Feingefühl und einer warmen Stimme verleiht Stacy jedem Augenblick den perfekten Klang.
+      </p>
 
+      <div class="cards why-cards">
+        <article class="card">
+          <span class="card-icon"><i data-lucide="calendar-check"></i></span>
+          <h3>Planung ohne Stress</h3>
+          <p>Auf- & Abbau, Abstimmung mit Location und klarer Ablauf – ihr genießt, ich organisiere.</p>
+        </article>
+
+        <article class="card">
+          <span class="card-icon"><i data-lucide="music-2"></i></span>
+          <h3>Repertoire nach Maß</h3>
+          <p>Lieblingssong? Romantische Ballade? Modern oder klassisch – das Programm passt sich euch an.</p>
+        </article>
+
+        <article class="card">
+          <span class="card-icon"><i data-lucide="mic"></i></span>
+          <h3>Premium-Sound</h3>
+          <p>Hochwertige Tontechnik für kleine wie größere Locations – warm, klar, ausgewogen.</p>
+        </article>
+      </div>
+
+      <div style="text-align:center;margin-top:28px">
+        <a href="#calendar" class="btn btn-gold">Verfügbarkeit prüfen</a>
+        <p class="tiny">Antwort meist innerhalb von 24h</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section bg-paper-soft cinematic-gallery">
+    <div class="container cine-wrap">
+      <aside class="cine-aside">
+        <h2 class="section-title">Impressionen</h2>
+        <p class="section-intro">
+          Dezent, elegant, zeitlos – Eindrücke von Trauungen, Empfängen & Galas.
+        </p>
+      </aside>
+
+      <div class="cine-stack" id="cineStack">
+        <figure class="cine-item"><img src="img/gallery1.jpg" alt="Freie Trauung in Limburg" loading="lazy"></figure>
+        <figure class="cine-item"><img src="img/gallery2.jpg" alt="Sektempfang in Aachen" loading="lazy"></figure>
+        <figure class="cine-item"><img src="img/gallery4.jpg" alt="Hochzeit in den Ardennen" loading="lazy"></figure>
+        <figure class="cine-item"><img src="img/gallery6.jpg" alt="Empfang in der Eifel" loading="lazy"></figure>
       </div>
     </div>
   </section>
 
   <!-- MEDIA -->
-  <section id="media" class="section">
+  <!-- <section id="media" class="section bg-solid">
     <div class="container">
       <h2 class="section-title">Hörprobe</h2>
       <p class="section-intro">Hören Sie hier in einen meiner Songs auf Spotify:</p>
@@ -107,22 +184,10 @@
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
         loading="lazy"></iframe>
     </div>
-  </section>
+  </section> -->
 
-  <!-- PRICING -->
-  <section id="pricing" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Wedding Packages</h2>
-      <div class="pricing">
-        <div class="price-card"><div class="badge">Paket 1</div><h3>Classic Ceremony</h3><ul><li>3 Songs</li><li>Zoom-Beratung</li><li>Technik inkl.</li></ul><button class="btn btn-gold">Jetzt anfragen</button></div>
-        <div class="price-card featured"><div class="badge">Paket 2</div><h3>Ceremony + Empfang</h3><ul><li>4 Songs Zeremonie</li><li>30 Min Empfang</li><li>Technik inkl.</li></ul><button class="btn btn-gold">Jetzt anfragen</button></div>
-        <div class="price-card"><div class="badge">Paket 3</div><h3>Signature Day</h3><ul><li>5/6 Songs</li><li>1 Std Empfang</li><li>Persönliches Vorgespräch</li></ul><button class="btn btn-gold">Jetzt anfragen</button></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FEEDBACK -->
-  <section id="testimonials" class="section">
+    <!-- TESTIMONIALS -->
+  <section id="testimonials" class="section bg-solid">
     <div class="container">
       <h2 class="section-title">Stimmen von Gästen</h2>
       <div class="testimonial-grid">
@@ -133,38 +198,114 @@
     </div>
   </section>
 
-  <!-- REGIONEN -->
-<section id="regions" class="section section-alt region-section">
-  <div class="container region-split">
-    <div class="region-text">
-      <h2 class="section-title">Regionen & Aktionsgebiet</h2>
-      <p class="section-intro">
-        Ich singe in <strong>Limburg</strong>, <strong>NRW</strong>, <strong>Eifel</strong>, <strong>Ardennen</strong> & rund um das
-        <strong>Drielandenpunt</strong>. <br/>
-        <em>Andere Orte sind nach Absprache jederzeit möglich.</em>
-      </p>
-      <ul class="region-list">
-        <li>Limburg – häufig: Maastricht, Vaals, Valkenburg, Heerlen</li>
-        <li>NRW – häufig: Aachen, Monschau, Heinsberg, Eschweiler</li>
-        <li>Eifel – häufig: Schleiden, Simmerath, Bad Münstereifel</li>
-        <li>Ardennen – häufig: Spa, Stavelot, Malmedy</li>
-      </ul>
-      <a href="#calendar" class="btn btn-gold">Verfügbarkeit prüfen</a>
+  <!-- PRICING -->
+  <section id="pricing" class="section bg-paper-soft">
+    <div class="container">
+      <h2 class="section-title">Packages</h2>
+
+      <div class="pricing-grid">
+        <!-- Paket 1 -->
+        <article class="tier">
+          <div class="tier-border"></div>
+          <div class="tier-head">
+            <span class="pill">Paket 1</span>
+            <h3 class="tier-title">Classic Ceremony</h3>
+            <div class="chips">
+              <span class="chip">Technik inkl.</span>
+              <span class="chip">Zoom-Beratung</span>
+            </div>
+          </div>
+          <ul class="tier-list">
+            <li><i data-lucide="chevron-right"></i> 3 Songs</li>
+            <li><i data-lucide="chevron-right"></i> Zoom-Beratung</li>
+            <li><i data-lucide="chevron-right"></i> Technik inkl.</li>
+          </ul>
+          <div class="tier-cta">
+            <button class="btn btn-gold book-btn" data-package="Paket 1">Jetzt anfragen</button>
+            <span class="tiny">€400</span>
+          </div>
+        </article>
+
+        <!-- Paket 2 -->
+        <article class="tier featured">
+          <div class="tier-border"></div>
+          <div class="tier-head">
+            <span class="pill">Paket 2</span>
+            <h3 class="tier-title">Ceremony + Empfang</h3>
+            <div class="chips">
+              <span class="chip">Technik inkl.</span>
+              <span class="chip">Wunschsong möglich</span>
+            </div>
+          </div>
+          <ul class="tier-list">
+            <li><i data-lucide="chevron-right"></i> 4 Songs Zeremonie</li>
+            <li><i data-lucide="chevron-right"></i> 30 Min Empfang</li>
+            <li><i data-lucide="chevron-right"></i> Technik inkl.</li>
+          </ul>
+          <div class="tier-cta">
+            <button class="btn btn-gold book-btn" data-package="Paket 2">Jetzt anfragen</button>
+            <span class="tiny accent">€500</span>
+          </div>
+        </article>
+
+        <!-- Paket 3 -->
+        <article class="tier">
+          <div class="tier-border"></div>
+          <div class="tier-head">
+            <span class="pill">Paket 3</span>
+            <h3 class="tier-title">Signature Day</h3>
+            <div class="chips">
+              <span class="chip">Persönliches Vorgespräch</span>
+              <span class="chip">Technik inkl.</span>
+            </div>
+          </div>
+          <ul class="tier-list">
+            <li><i data-lucide="chevron-right"></i> 5/6 Songs</li>
+            <li><i data-lucide="chevron-right"></i> 1 Std Empfang</li>
+            <li><i data-lucide="chevron-right"></i> Persönliches Vorgespräch</li>
+          </ul>
+          <div class="tier-cta">
+            <button class="btn btn-gold book-btn" data-package="Paket 3">Jetzt anfragen</button>
+            <span class="tiny">€650</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="tiny center">Ab 50 km Anfahrt: +20 €. Individuelle Pakete gerne auf Anfrage.</p>
     </div>
+  </section>
 
-    <figure class="region-figure">
-      <img
-        src="img/region-map-square.png"
-        alt="Karte: Niederlande, Belgien und westliches Deutschland (NRW, Eifel, Ardennen) als Aktionsgebiet markiert"
-        loading="lazy" width="900" height="450" />
-      <figcaption class="tiny">Aktionsgebiet (Richtlinie) – weitere Regionen gerne auf Anfrage.</figcaption>
-    </figure>
-  </div>
-</section>
+  <!-- REGIONEN -->
+  <section id="regions" class="section bg-paper">
+    <div class="container region-split">
+      <div class="region-text">
+        <h2 class="section-title">Regionen & Aktionsgebiet</h2>
+        <p class="section-intro">
+          Ich singe in <strong>Limburg</strong>, <strong>NRW</strong>, <strong>Eifel</strong>, <strong>Ardennen</strong> & rund um das
+          <strong>Drielandenpunt</strong>. <br/>
+          <em>Andere Orte sind nach Absprache jederzeit möglich.</em>
+        </p>
+        <ul class="region-list">
+          <li>Limburg – häufig: Maastricht, Vaals, Valkenburg, Heerlen</li>
+          <li>NRW – häufig: Aachen, Monschau, Heinsberg, Eschweiler</li>
+          <li>Eifel – häufig: Schleiden, Simmerath, Bad Münstereifel</li>
+          <li>Ardennen – häufig: Spa, Stavelot, Malmedy</li>
+        </ul>
+        <a href="#calendar" class="btn btn-gold">Verfügbarkeit prüfen</a>
+      </div>
 
+      <figure class="region-figure">
+        <img
+          src="img/region-map-square.png"
+          alt="Karte: Niederlande, Belgien und westliches Deutschland (NRW, Eifel, Ardennen) als Aktionsgebiet markiert"
+          loading="lazy" width="900" height="450" />
+        <figcaption class="tiny">Aktionsgebiet (Richtlinie) – weitere Regionen gerne auf Anfrage.</figcaption>
+      </figure>
+    </div>
+  </section>
 
   <!-- CALENDAR -->
-  <section id="calendar" class="section">
+  <section id="calendar" class="section bg-solid">
     <div class="container">
       <h2 class="section-title">Verfügbarkeit prüfen</h2>
       <p class="section-intro">Wählt ein Datum im Kalender und schickt eure Anfrage in weniger als einer Minute.</p>
