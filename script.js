@@ -3,7 +3,7 @@
 // ==============================
 
 // ---- CONFIG ----
-const WHATSAPP_NUMBER = "31600000000"; // vervang met echt nummer
+const WHATSAPP_NUMBER = "+32479530471"; // vervang met echt nummer
 
 // ---- YEAR ----
 const yearEl = document.getElementById("year");
