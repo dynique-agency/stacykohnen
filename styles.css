@@ -50,14 +50,11 @@ h1,h2,h3,.brand-text{font-family:"Cormorant Garamond", serif}
 .nav-inner{display:flex; align-items:center; justify-content:space-between; width:100%; padding:0 14px}
 .brand{display:flex; align-items:center; gap:10px}
 .brand-text{font-weight:600; letter-spacing:.3px}
-<<<<<<< HEAD
-=======
 .brand-logo{
-  height:40px;
+  height:14px;
   width:auto;
   display:block;
 }
->>>>>>> 730e08f (Update pricing and logo)
 .nav-links{display:flex; gap:10px; align-items:center}
 .nav-links a{padding:10px 14px; border-radius:999px}
 .nav-links a:hover{background:rgba(0,0,0,.05)}
