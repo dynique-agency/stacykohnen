@@ -51,7 +51,7 @@ h1,h2,h3,.brand-text{font-family:"Cormorant Garamond", serif}
 .brand{display:flex; align-items:center; gap:10px}
 .brand-text{font-weight:600; letter-spacing:.3px}
 .brand-logo{
-  height:14px;
+  height:32px;
   width:auto;
   display:block;
 }
